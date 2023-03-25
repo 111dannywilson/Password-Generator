@@ -21,12 +21,6 @@ def check_input():
         exit()
     return password_length
 
-# def check_password_length(variable, limit):
-#     if len(variable) < limit:
-#         print(f'Lenght is too huge, limit is {len(variable)}')
-#         exit()
-#     else:
-#         return variable[0:limit]
 
 # function for getting a specific type of value
 def get_values(module, loop_variable):
